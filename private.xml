@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<root>
+ <item>
+ <name>Customized by jeemyeong</name>
+   <item>
+     <name>Make HanEng key work in OS X</name>
+     <identifier>private.change_HanEng_to_Control_L_Option_L_Space</identifier>
+     <autogen>__KeyToKey__ KeyCode::JIS_KANA, KeyCode::SPACE, ModifierFlag::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+   </item>
+   <item>
+     <name>Make Command_R key(to Control_L(R)+Option_L(R)+SPACE</name>
+     <identifier>private.change_COMMAND_R_to_Control_L_Option_L_Space</identifier>
+     <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::SPACE, ModifierFlag::CONTROL_L, ModifierFlag::OPTION_L</autogen>
+   </item>
+   <item>
+    <name>Toggle Hanja Key(to Option_L(R)+Return)</name>
+    <identifier>remap.ksc_hanja_to_option_L_return</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::JIS_EISUU, KeyCode::OPTION_L, KeyCode::RETURN, ModifierFlag::OPTION_R</autogen>
+   </item>
+   <item>
+    <name>Toggle Command+[ to Ctrl + Shift + Tab</name>
+    <identifier>remap.Command_[_to_Ctrl_Shift_Tab</identifier>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L, KeyCode::TAB, ModifierFlag::SHIFT_L, ModifierFlag::CONTROL_L</autogen>
+   </item>
+   <item>
+    <name>Toggle Command+] to Ctrl + Tab</name>
+    <identifier>remap.Command_]_to_Ctrl_Tab</identifier>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L, KeyCode::TAB, ModifierFlag::CONTROL_L</autogen>
+   </item>
+ </item>
+</root>
